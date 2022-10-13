@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 12-10-2022 a las 06:07:36
+-- Tiempo de generación: 13-10-2022 a las 23:24:33
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 8.0.13
 
@@ -39,9 +39,9 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `dni`, `nombres`, `apellidos`) VALUES
-(112, 15651621, 'Duvan Javid', 'Bolaño Velasquez'),
-(113, 12656656, 'Frey', 'Usuga Carreño'),
-(114, 65515515, 'Luis Enrique', 'Alvarado');
+(114, 65515515, 'Luis Enrique', 'Alvarado Sanchez'),
+(116, 2343453, 'duvan javid', 'bolaño velasquez'),
+(117, 999999, 'Frey Alexander', 'usuga carreño');
 
 --
 -- Índices para tablas volcadas
@@ -61,7 +61,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=115;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=118;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
