@@ -16,13 +16,11 @@
                                     <label for="">Apellidos</label>
                                     <input type="text" class="form-control mb-3" name="apellidos" placeholder="Apellidos" value="<?php echo $row['apellidos']  ?>">
                                     <br>
+                                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancelar</button>
+                                    <input type="submit" class="btn btn-outline-primary" value="Actualizar" id="<?php echo $row['id']  ?>">
                         </form> 
                     </div>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancelar</button>
-                <input type="submit" class="btn btn-outline-primary" value="Actualizar">
             </div>
         </div>
     </div>
